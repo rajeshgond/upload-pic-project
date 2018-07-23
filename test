@@ -1,0 +1,27 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2018.06.29 15:14:11 =~=~=~=~=~=~=~=~=~=~=~=
+login as: admin
+
+
+(Cisco Controller) 
+User: admin
+Password:************
+(Cisco Controller) >config sessions timeout 0
+
+(Cisco Controller) >config paging disable 
+
+
+(Cisco Controller) >debug client 4c:32:75:95:9b:67
+
+(Cisco Controller) >debug dhcp message enable 
+
+(Cisco Controller) >show client detail 
+Incorrect input! Use 'show client detailed <MAC addr>'
+
+(Cisco Controller) >show client detail   4c:32:75:95:9b:67
+Invalid client MAC address provided.
+
+(Cisco Controller) >*spamApTask0: Jun 29 15:33:14.788: apfQueueAllDot11CacheEntries not found corresponding ACL for the clientFlexAclID for client d0:81:7a:aa:68:a6
+*spamApTask0: Jun 29 15:40:49.845: apfQueueAllDot11CacheEntries not found corresponding ACL for the clientFlexAclID for client ac:37:43:52:bf:e5
+*spamApTask0: Jun 29 15:40:49.845: Queuing 1 PMK cache entries to send to AP 00:00:00:00:00:00
+
+*spamApTask0: Jun 29 15:40:49.845: No CCKM cache entries found to send to AP 00:00:00:00:00:00
